@@ -1,0 +1,251 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background: #E1F2F7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container
+{
+	position: relative;
+	width: 100%;
+	max-width:1000px;
+	min-height: 1000px;
+	background: #E8EAE3;
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+.container .left_Side
+{
+	position: relative;
+	background: #373833;
+	padding: 40px;
+}
+.left_img
+{
+	position: relative;
+	text-align: center;
+}
+.contact
+{
+	color: #fff;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.phone
+{
+	font-weight: 200;
+	color: lightcyan;
+	margin-left: 25px;
+}
+.number a
+{
+	color: skyblue;
+}
+.phone img
+{
+	position: absolute;
+  width: 20px;
+  height: 20px;
+  padding-bottom: 5px;
+}
+.email
+{
+	font-weight: 200;
+	color: lightcyan;
+	font-size: 15px;
+	margin: 25px;
+}
+.email a
+{
+	color: skyblue;
+}
+.mails img
+{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	padding-bottom: 5px;
+}
+.linked
+{
+	font-weight: 150;
+	color: lightcyan;
+	font-size: 15px;
+	margin: 12px;
+
+}
+.link a
+{
+	color: skyblue;
+}
+.linked img
+{
+	position: absolute;
+	width: 20px;
+	height: 18px;
+	padding-bottom: 5px;
+}
+.skills
+{
+	color: #fff;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+}
+.interest
+{
+	color: #fff;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;	
+}
+.info
+{
+	color: #fff;
+	font-size: 15px;
+	font-family: Arial;
+}
+.certif
+{
+	color: #fff;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;	
+}
+.content h3
+{
+	color: #fff;
+	font-size: 18px;
+	font-family: Arial;
+	padding-top: 20px;
+	text-align: center;
+}
+.content p
+{
+
+	color: #fff;
+	font-family: Arial;
+	text-align: center;
+}
+.container.right_Side
+{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+}
+.right_Side
+{
+	padding-left: 1cm;
+	padding-right: 1cm;
+}
+.Name h1
+{
+	color: black;
+	font-family: Arial;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 80px;
+	
+}
+.Name hr
+{
+	background: black;
+	text-align: center;
+	width: 100px;
+	padding-bottom: 3px;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.Name h4
+{
+	color: black;
+	font-family: Arial;
+	font-size: 15px;
+	text-align: center;
+	
+}
+.about
+{
+	color: black;
+	font-size: 25px;
+	font-family: Arial;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+.data p
+{
+	text-align: justify;
+	font-family: Arial;
+}
+.educ 
+{
+	color: black;
+	font-size: 25px;
+	font-family: Arial;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+img
+{
+	width: 200px;
+    border-radius: 50%; 
+    margin: auto;
+    display: block;
+}
+hr
+{
+	background: #fff;
+	height: 1px;
+	border: none;
+	margin-right: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.school h3
+{
+	text-align: center;
+	font-family: Arial;
+}
+.school p
+{
+	text-align: center;
+	font-family: Arial;
+}
+.school ul 
+{
+	text-align: center;
+	font-family: Arial;
+}
+.work
+{
+	color: black;
+	font-size: 25px;
+	font-family: Arial;
+	font-weight: bold;
+	display: flex;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	justify-content: center;
+}
+.exp p
+{
+	text-align: justify;
+	font-family: Arial;
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<title>Portfolio</title>
+<style>
+  body{
+    background-color: black;
+    color: whitesmoke;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Style for sections */
+  section {
+    padding: 100px;
+    margin-top: 50px;
+    border-bottom: 1px solid #ccc;
+    background-size: cover;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+    background-color: black; /* Adjust background color as needed */
+    padding: 10px 0; /* Adjust padding as needed */
+    transition: background-color 0.5s; /* Add transition for smooth color change */
+  }
+    .navbar-nav {
+    width: 60%;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    flex-grow: 1;
+  }
+
+  .navbar-nav .nav-item a {
+    padding: 10px 15px; /* Adjust as needed */
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  .navbar-nav .nav-item a:hover{
+    color: yellow;
+  }
+    #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Add gray background color to navbar when scrolling to specific sections */
+  .navbar-scrolled {
+    background-color: #31363F !important;
+  }
+</style>
+<div id="particles-js">
+</div>
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <h5 style="color: whitesmoke;">Edward John Del Barrio</h5>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center " id="navbarNav"> <!-- Center the collapse content -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html" type="button">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+          <h1>HELLO</h1>
+          <h2><strong>I'M <span>EDWARD JOHN</span></strong></h2>
+          <h3><span id="element" class="text-warning"></span></h3><br>
+          <p> A motivated student pursuing a Bachelor of Science in Information Systems, I am passionate about the ever-evolving world of technology and its impact on businesses and society. My academic journey has equipped me with a solid foundation in areas such as project management. I am committed to continuous learning and growth, actively seeking opportunities to apply my theoretical knowledge in real-world scenarios.</p>
+          <br>
+          <a href="#about" type="button" class="btn btn-outline-warning">Read More</a><br><br>
+          <a style="margin-right: 10px;" href="https://www.facebook.com/edwardjohn.delbarrio.7/about_details"><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i></a>
+          <a style="margin-right: 10px;" href="https://www.instagram.com/_e.jhn/"><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i></a>
+          <a style="margin-right: 10px;" href="https://www.linkedin.com/in/edward-john-del-barrio-79366924b/"><i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i></a>
+          <a style="margin-right: 10px;" href="https://github.com/wards25"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i></a>
+
+        </div>
+      <div class="col-6">
+        <img src="profile.png" style="max-height: 300px; background-color: white; border-radius: 50%;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="text-center">ABOUT</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-6"><img src="img.png" style="max-height: 400px;border-radius: 10px;"></div>
+      <div class="col-sm-6 mb-3 mb-sm-0"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <p>Check out our skills.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Contact us for more information.</p>
+</section>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="script.js"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var typed = new Typed('#element', {
+      strings: ['student', 'aspiring web-developer'],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true
+    });
+  });
+
+  // Add smooth scrolling to all links
+  document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+      
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+<script>
+  let prevScrollPos = window.pageYOffset;
+
+  // Add smooth scrolling to all links
+  document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+      
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: 'smooth'
+      });
+    });
+  });
+
+  // Change navbar background color when scrolling down
+  window.addEventListener('scroll', function() {
+    const currentScrollPos = window.pageYOffset;
+    const navbar = document.querySelector('.navbar');
+    const homeSection = document.getElementById('home');
+    
+    if (currentScrollPos > prevScrollPos) {
+      navbar.classList.add('navbar-scrolled');
+    } else {
+      navbar.classList.remove('navbar-scrolled');
+    }
+
+    // Revert navbar background color to original on the home section
+    if (isInViewport(homeSection)) {
+      navbar.classList.remove('navbar-scrolled');
+    }
+    
+    prevScrollPos = currentScrollPos;
+  });
+
+  function isInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+    );
+  }
+</script>
+
+
+
+</body>
+</html>
